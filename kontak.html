@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Kontak</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+        padding-top: 50px;
+        }
+    .container h1.text-center {
+        margin-top: 60px; /* Sesuaikan dengan jarak yang diinginkan */
+        }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+        }
+    .contact-form {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        }
+    footer {
+        background-color: #343a40;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Kontak</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="halaman.html">Halaman</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tentang_kami.html">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="layanan.html">Layanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="kontak.html">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <div class="container">
+        <h1 class="text-center">Hubungi Kami</h1>
+
+        <div class="contact-form">
+            <form>
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+            </div>
+            <div class="form-group">
+                <label for="pesan">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3" placeholder="Tulis pesan Anda"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+        </div>
+        </div>
+
+        <footer>
+            <p><i>@Iqbal Khafidz Abrori 234311015</i></p>
+        </footer>
+
+</body>
+</html>
